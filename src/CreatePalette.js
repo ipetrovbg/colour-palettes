@@ -8,7 +8,7 @@ function CreatePalette() {
   const [error, setError] = useState(null);
 
   return (
-    <div className="bg-slate-100 p-4 min-w-[350px] w-[350px] flex flex-col snap-always snap-center border border-slate-100 rounded">
+    <div className="bg-slate-100 p-4 min-w-[300px] w-[300px] flex flex-col snap-always snap-center border border-slate-100 rounded">
       <label for="palette" className="pb-2">
         New
       </label>

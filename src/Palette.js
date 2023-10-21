@@ -10,7 +10,7 @@ function Palette({ palette }) {
   return (
     <div
       key={palette.name}
-      className="text-lg min-w-[350px] w-[350px] snap-always snap-center border border-slate-100 rounded"
+      className="text-lg min-w-[300px] w-[300px] snap-always snap-center border border-slate-100 rounded"
     >
       <PaletteHeader
         onDelete={() => {
