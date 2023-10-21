@@ -1,4 +1,3 @@
-import { useState } from "react";
 import TransparentColour from "./TransparentColour";
 
 function PaletteColour({ color, onSelectColour, isSelected, onDelete }) {
